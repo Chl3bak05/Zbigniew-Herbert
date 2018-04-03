@@ -1,0 +1,376 @@
+body
+	{margin:0px}
+body, h1,h2,h3,h4,h5,h6 
+	{font-family: "Montserrat", sans-serif}
+	
+p,h1,h2,h3,h4,h5,h6,ul,li
+	{ line-height: 30px }
+	
+
+header
+	{text-align:center;
+	vertical-align:middle;
+	margin-bottom:20px}
+	
+footer
+	{max-width:99.9999%;
+	margin-right:20px;
+	display:block;
+	white-space:normal;
+	text-align:center!important}
+	
+	
+.main-2
+{margin-left:20px;
+margin-right:20px}
+
+	
+	
+
+.dark-theme
+	{color:#fdfdfd;
+	background-color:#060606}
+
+.dark-element
+	{color:#fdfdfd;
+	background-color:#202020!important}
+
+.inverted
+	{filter: invert(100%);
+	background-color:#EEEEEE}
+	
+.inverted .diff
+	{filter: invert(100%)}
+	
+
+	
+	
+	
+	
+.home
+	{text-align:center;
+	position:relative;
+	top:77vh;
+	overflow:visible;
+	display:inline-block;
+	width:auto;
+	font-style:oblique;
+	font-weight:bold;
+	
+	padding:20px 1em;
+	font-size:40px;
+	line-height: 45px}
+
+
+.inverted .home
+	{background-color:#fdfdfd;
+	color:#060606;
+	outline-color:#060606}
+	
+
+	
+	
+
+	
+	
+.opacity
+	{opacity:0.9}
+.hover-opacity-off:hover
+	{opacity:1}
+
+
+
+.inline
+	{outline:2px solid #B0B0B0;
+	outline-offset:-5px}
+
+
+.bar-item
+	{display:inline-block;
+	vertical-align:middle;
+	text-align:center!important;
+	text-decoration:none;}
+
+
+.dark-theme .bar-item
+	{color:#fdfdfd;
+	background-color:none!important}
+	
+		
+.dark-theme .bar-item:hover
+	{cursor:pointer;
+	background-color:#B0B0B0}
+	
+.dark-theme .bar-item:active
+	{cursor:wait;
+	background-color:#B0B0B0;
+	color:#030303!important;
+	font-weight:bold!important}
+	
+	
+.parallax {
+
+    background-image: url("zbigniew_herbert.jpg");
+
+    min-height: 100vh; 
+	width:100%;
+	z-index:4;
+	padding:0px 0px!important;
+	
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover}	
+	
+.sidebar
+	{height:100%;
+	position:fixed!important;
+	z-index:1;
+	overflow:auto;
+	width:136px;
+	padding:7px 5px;
+	display:block;
+	text-align:center!important}
+	
+	
+.sidebar .bar-item
+	{width:132px;
+	overflow:auto;
+	font-size:125%;
+	padding:52px 0px}
+
+	
+.bar
+	{width:100%;
+	overflow:hidden;
+	text-align:left!important;}
+	
+.topbar
+	{position:fixed!important;
+	z-index:1;
+	overflow:hidden;
+	width:100%;
+	padding-left: 2px;
+	display:block;
+	white-space:normal}
+	
+.topbar .bar-item
+	{width:24.99%;
+	padding:2vh 0px;
+	overflow:hidden;
+	font-size:3.5vw}
+
+
+	
+
+	
+.switch-item
+	{display:inline-block;
+	vertical-align:middle;
+	overflow:hidden;
+	text-decoration:none;
+	text-align:center!important}
+	
+.sidebar .switch-item
+{margin-top:30px}
+
+.in
+	{width: 38px;
+	height: 38px;
+	display:block;
+	margin:auto;
+	text-align:center!important;
+	background: #B0B0B0;
+	outline: 7px solid #EEEEEE;
+	outline-offset: -14px!important}
+	
+	
+	
+	
+	
+	
+.copyright
+	{padding-top:30px;
+	margin:10px}
+	
+.footer
+	{overflow:hidden;
+	margin:auto}
+	
+.footer-item
+	{width:40px;
+	height:40px;
+	display:inline-block;
+	overflow:visible;
+	text-align:center;
+	padding:10px 10px;
+	margin:10px;
+	border-radius:10px}
+	
+.footer-item:hover
+	{cursor:pointer;
+	filter: invert(100%)}
+
+.footer-item.steam
+	{width:42px!important;
+	height:42px!important;
+	padding:8px 8px}
+
+
+
+
+
+
+	
+.noindent
+{text-indent:0px!important}
+
+.indent
+{text-indent: 3em}
+
+
+
+
+
+
+.link
+{line-height: 32px!important;
+text-decoration:none;
+
+color:#EEEEEE;
+padding:5px 5px;
+margin-left:-40px;
+background-color:none;
+}
+
+.link:hover:not(li)
+ {cursor:pointer;
+	filter: invert(100%);
+	background-color:#060606;}
+	
+.source
+	{
+	text-align:center!important;
+	display:block;
+	overflow:hidden;
+	margin:auto;
+	padding:10px 20vw}
+		
+	
+	/*------responisve-----*/
+	
+@media (min-width:1079px){
+.hide-large
+		{display:none!important}
+
+.main
+	{
+	margin-left:10px}
+	
+header
+	{margin-left:132px}
+	
+footer
+	{margin-left:152px!important}
+
+
+.main-2
+	{margin-left:132px;
+	display:block;
+	text-align:justify;
+	padding:0px 10vw}
+	
+
+
+
+	
+.responsive {
+    float: left;
+	height:auto;
+	max-height:900px;
+	min-height:360px;
+	width: 24%}	
+}
+
+
+	
+@media (max-width:1078px){
+.hide-small
+	{display:none!important}
+.main
+	{
+	margin-top:0px}
+	
+	
+.main-2
+	{padding:0px 2vw;
+	display:block;
+	text-align:justify}
+
+.home
+	{padding:10px 1em;
+	font-size:7vmin!important;
+	line-height:10vmin!important}
+	
+
+.responsive {
+    width: 99%;
+	margin: 6px 0;
+	height:auto!important}
+	
+div.gallery {
+	height:auto!important}
+	
+div.desc {
+    padding:30px!important;
+}
+}
+
+
+
+	
+/*-------------------Gallery-------------------*/
+	
+	div.gallery {
+    border: 1px solid #ccc;
+	box-sizing: border-box;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+	margin-left:-48px;
+
+}
+
+div.desc {
+    padding:15px;
+    text-align: center;
+display :block}
+
+.responsive {
+    padding: 6px;
+    float: left;
+	box-sizing: border-box;
+	
+
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+	
+	
+
+
+/* Copyright by Mateusz Chlebosz*/
+
+	
