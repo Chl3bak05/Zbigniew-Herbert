@@ -13,7 +13,6 @@ slider.className="slider slider_l"
 change.className="dark-theme"
 sessionStorage.setItem("dark", "true");
 
-slider.className="slider slider_d"
 }
 }
 
@@ -39,4 +38,11 @@ if (dark=="true" || dark=="false"){
 		change.className="dark-theme"
 
 	}
+}
+
+function open_about(){
+	document.getElementById("about").style.display = "flex";
+}
+function close_about(){
+	document.getElementById("about").style.display = "none";
 }
