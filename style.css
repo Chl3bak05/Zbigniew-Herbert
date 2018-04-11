@@ -1,9 +1,9 @@
 body
 	{margin:0px}
-body, h1,h2,h3,h4,h5,h6 
+body, h1,h2,h3,h4,h5,h6,a
 	{font-family: "Montserrat", sans-serif}
 	
-p,h1,h2,h3,h4,h5,h6,ul,li
+p,h1,h2,h3,h4,h5,h6,ul,li,a
 	{ line-height: 30px }
 	
 
@@ -191,8 +191,8 @@ margin-right:20px}
 	
 	
 .copyright
-	{padding-top:30px;
-	padding-bottom:30px;
+	{padding-top:5px;
+	padding-bottom:5px;
 	margin:10px}
 	
 .footer
@@ -390,7 +390,7 @@ display :block}
 	text-align:center!important;
 	display:block;
 	margin-left:20vw;
-	margin-top:5vh
+	margin-top:5vh;
 	
 }
 .X
@@ -413,7 +413,8 @@ display :block}
 	text-align:center;
 	padding:10px 10px;
 	margin:10px;
-	border-radius:10px
+	border-radius:10px;
+	font-size:auto;
 }
 
 	
