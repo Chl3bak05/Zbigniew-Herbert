@@ -194,7 +194,7 @@ margin-right:20px}
 	{padding-top:5px;
 	padding-bottom:5px;
 	margin:10px;
-	font-size:20px;}
+	font-size:22px!important;}
 	
 .footer
 	{overflow:hidden;
@@ -390,7 +390,7 @@ display :block}
 	z-index:4;
 	text-align:center!important;
 	display:block;
-	font-size:28px;
+	font-size:22px!important;
 	margin-left:20vw;
 	margin-top:5vh;
 	
@@ -416,7 +416,7 @@ display :block}
 	padding:10px 10px;
 	margin:10px;
 	border-radius:10px;
-	font-size:20px;
+	font-size:22px!important;
 }
 
 	
