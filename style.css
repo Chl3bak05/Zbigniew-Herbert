@@ -193,7 +193,8 @@ margin-right:20px}
 .copyright
 	{padding-top:5px;
 	padding-bottom:5px;
-	margin:10px}
+	margin:10px;
+	font-size:20px;}
 	
 .footer
 	{overflow:hidden;
@@ -389,6 +390,7 @@ display :block}
 	z-index:4;
 	text-align:center!important;
 	display:block;
+	font-size:28px;
 	margin-left:20vw;
 	margin-top:5vh;
 	
@@ -414,7 +416,7 @@ display :block}
 	padding:10px 10px;
 	margin:10px;
 	border-radius:10px;
-	font-size:auto;
+	font-size:20px;
 }
 
 	
