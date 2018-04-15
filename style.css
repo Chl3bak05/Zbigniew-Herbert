@@ -196,6 +196,23 @@ margin-right:20px}
 	margin:10px;
 	font-size:22px!important;}
 	
+.copyright a
+{
+	display:inline-block;
+	overflow:visible;
+	text-align:center;
+	padding:10px 10px;
+	margin:10px;
+	border-radius:10px;
+	font-size:22px!important;
+}
+
+	
+.copyright a:hover
+	{cursor:pointer;
+	filter: invert(100%)}
+
+	
 .footer
 	{overflow:hidden;
 	margin: auto;
@@ -395,6 +412,12 @@ display :block}
 	margin-top:5vh;
 	
 }
+
+.about p
+{
+	padding:0px 30px;
+}
+
 .X
 {
 	top:20px;
@@ -402,27 +425,7 @@ display :block}
     right: 20px;
 	display:inline;!important
 }
-
-.about p
-{
-	padding:0px 30px;
-}
 	
-.copyright a
-{
-	display:inline-block;
-	overflow:visible;
-	text-align:center;
-	padding:10px 10px;
-	margin:10px;
-	border-radius:10px;
-	font-size:22px!important;
-}
-
-	
-.copyright a:hover
-	{cursor:pointer;
-	filter: invert(100%)}
 
 /* Copyright by Mateusz Chlebosz*/
 
